@@ -28,7 +28,7 @@ first_inscription_height: 0
 EOF
 
 ord --config config index update
-screen -dm -S ord -L -t ord ord --config config server
+screen -dm -S ord -L -t ord sudo ord --config config server
 
 echo "Install Finished. Run 'screen -r' show index update progress."
 
